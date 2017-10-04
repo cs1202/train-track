@@ -1,0 +1,66 @@
+body {
+
+    background-image: url(../images/train.jpg);
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+h1, h3, .panel-title, .panel-body {
+    color: yellow;
+}
+
+th, h2 {
+    color: red;
+}
+
+tr:hover {
+    background: lightgrey;
+}
+
+td {
+    font-size: 50px
+    font-weight: 20 
+}
+
+label {
+    font-size: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 980px
+    
+}
+
+.jumbotron {
+    width: 100%;
+    background: rgb(105, 105, 105);
+    background: rgba(105, 105, 105, .5);    
+    color: cyan;
+    top:15px;
+}
+
+.panel-primary{
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+}
+
+.panel-primary{
+    min-height: 500px;
+}
+
+.panel-primary >.panel-heading {                                  /*How to override Bootstrap's Panel heading background color  
+                                                https://stackoverflow.com/questions/26505033/how-to-override-bootstraps-panel-heading-background-color*/
+
+
+
+background: rgb(105, 105, 105);
+background: rgba(105, 105, 105, .5);    
+
+}
+
+
+
+
+
+
